@@ -426,6 +426,10 @@ section .container {
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
+.img-fluid{
+  border-radius: 20px;
+  filter: contrast(130%);
+}
 
 /*--------------------------------------------------------------
 # Counts
