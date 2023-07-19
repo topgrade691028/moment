@@ -1136,3 +1136,21 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+
+/*--------------------------------------------------------------
+# Credits
+--------------------------------------------------------------*/
+
+.customContainer{
+  display: grid !important; 
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: space-around;
+}
+.customItem{
+  width: 100% !important;
+  max-width: 350px !important;
+  border-radius: 20px !important;
+  padding: 10px 20px !important;
+  height: 350px !important;
+}
